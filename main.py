@@ -30,7 +30,7 @@ class YahooFinance():
 
 if __name__ == '__main__':
 
-    ativo_vale = YahooFinance(secret = '2d08d7a603msh56dc53db439d277p118f9cjsn98674f4ff023', region = 'US' , ativo = 'AMRN')
-    historico_vale = ativo_vale.historico_ativo()
+    ativo_amrn = YahooFinance(secret = '2d08d7a603msh56dc53db439d277p118f9cjsn98674f4ff023', region = 'US' , ativo = 'AMRN')
+    historico_amrn = ativo_amrn.historico_ativo()
 
-    print(historico_vale)
+    print(historico_amrn)
